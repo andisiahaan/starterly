@@ -1,0 +1,38 @@
+*.log
+*.zip
+*.tar.gz
+*.mp4
+.DS_Store
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/vendor
+/bootstrap/cache/*.php
+/bootstrap/cache/.gitignore
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Documentation (development only)
+/docs
+
+# Binary files
+rr
+
+# Local SQLite databases (do not commit local dev DB)
+/database/*.sqlite
+/database/*.sqlite3
